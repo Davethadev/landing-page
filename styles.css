@@ -1,0 +1,181 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    margin-bottom: 36px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 36px;
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+ text-decoration: none;
+ font-size: 18px;
+ color: #E5E7EB;
+}
+
+.hero-main-text {
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+    margin-left: 230px;
+}
+
+.main-text {
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #F9FAF8;
+}
+
+.image {
+    background-color: lightgrey;
+    width: 360px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.info {
+    width: 140px;
+    text-align: center;
+}
+
+.item {
+    width: 135px;
+    height: 135px;
+    border: #3882F8 solid 2px;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+ font-size: 36px;
+ font-style: italic;
+ color: #1F2937;
+ padding: 50px;
+}
+
+.quote-text p {
+ font-weight: bold;
+ font-style: normal;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.information-header {
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.information-header button {
+    background-color: #3882F6;
+    border: #F9FAF8 solid 2px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.info-text {
+    color: #F9FAF8;
+} 
+
+.footer {
+    background-color: #1F2937;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
