@@ -1,181 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-.header {
-    background-color: #1F2937;
+body {
+    font-family: 'Red Hat Display', serif;
+}
+
+nav {
     display: flex;
-    flex-direction: column;
-    padding: 36px;
-    margin-bottom: 36px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-logo-text {
-    font-size: 24px;
+nav #logo {
+    font-size: 1.8rem;
     color: #F9FAF8;
-    margin-bottom: 36px;
 }
 
 ul {
     display: flex;
-    gap: 12px;
+    list-style-type: none;
 }
 
-li {
-    list-style: none;
-    
+ul li a {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: #E5E7EB;;
 }
 
-a {
- text-decoration: none;
- font-size: 18px;
- color: #E5E7EB;
+.image img {
+    width: 100%;
 }
 
-.hero-main-text {
-    display: flex;
-    justify-content: space-between;
-    width: 820px;
-    margin-left: 230px;
+#header {
+    padding: 2rem;
+    background-color: #1F2937;
 }
 
-.main-text {
-    width: 400px;
+#header-text {
+    text-align: center;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
+#header-text p {
+    font-size: 1.2rem;
+    color: #E5E7EB;
+} 
+
+#header-text h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
     color: #F9FAF8;
 }
 
 p {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin-top: 0;
+    font-size: 1.5rem;
+    /* margin: 0.5rem 0; */
 }
 
 button {
     background-color: #3882F6;
-    font-weight: bold;
-    padding: 8px 16px;
     border: none;
-    border-radius: 4px;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 1rem 0;
     color: #F9FAF8;
 }
 
-.image {
-    background-color: lightgrey;
-    width: 360px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#second-section .image-text-wrapper {
+    width: 12.5rem;
+    margin: 0 auto;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 36px;
+#second-section .img-wrapper{
+    /* width: 10rem; */
+    margin: 2rem auto;
 }
 
-.container {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-.info {
-    width: 140px;
+#second-section p {
     text-align: center;
+    
 }
 
-.item {
-    width: 135px;
-    height: 135px;
-    border: #3882F8 solid 2px;
-    border-radius: 8px;
+#second-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.6rem 0 1.2rem;
+    color: #1F2937;
 }
 
-.quote {
+#second-section .img-wrapper img {
+    width: 100%;
+}
+
+#testimonial {
+    width: 22rem;
+    height: auto;
     background-color: #E5E7EB;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #1F2937;
 }
 
-.quote p {
- font-size: 36px;
- font-style: italic;
- color: #1F2937;
- padding: 50px;
+#testimonial .text {
+    font-style: italic;
+    font-size: 2.4rem;
 }
 
-.quote-text p {
- font-weight: bold;
- font-style: normal;
- display: flex;
- justify-content: flex-end;
+#testimonial .author {
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 0;
 }
 
-.information-header {
+#call-to-action {
     background-color: #3882F6;
-    margin: 50px;
-    padding: 52px;
-    display: flex;
-    justify-content: space-between;
+    width: 16rem;
+    text-align: left;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    padding: 2rem;
 }
 
-.information-header p {
-    font-size: 24px;
+#call-to-action .call {
+    font-weight: 700;
+}
+
+#call-to-action p {
     color: #F9FAF8;
+    font-size: 1.8rem;
 }
 
-.information-header button {
+#call-to-action button {
+    width: 100%;
     background-color: #3882F6;
     border: #F9FAF8 solid 2px;
-    padding: 8px 24px;
-    font-weight: bold;
+    padding: 0.5rem 1.8rem;
+    font-weight: 500;
 }
 
-.info-text {
-    color: #F9FAF8;
-} 
-
-.footer {
+footer {
     background-color: #1F2937;
-    padding: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    /* margin: 1.5rem; */
+    padding: 0.5rem;
 }
 
+@media(min-width: 1100px) {
+    body {
+        /* max-width: 75%; */
+        /* margin: 0 auto; */
+        overflow-x: hidden;
+    }
 
+    nav {
+        width: 70%;
+        margin: 0 auto;
+    }
 
+    #header .image-headertext-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+    }
 
+    div.image {
+        order: 2;
+    }
 
+    div#header-text{
+        order: 1;
+    }
 
+    #header #header-text {
+        text-align: left;
+        width: 22rem;
+        margin-right: 0.5em;
+    }
 
+    #header-text h1,
+    #header-text p,
+    #header-text button {
+        margin: 0;
+    }
+    
+    #second-section .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
- 
+    #second-section .image-text-wrapper {
+        width: 7.5rem;
+        margin: 1.5rem;
+    }
 
+    #second-section .image-text-wrapper p {
+        font-size: 0.75rem;
+    }
 
+    #testimonial {
+        width: 100%;
+        border-radius: 0;
+    }
 
+    #testimonial .testimonial-inner-text {
+        width: 60%;
+        padding: 2.5rem 0;
+        margin: 0 auto;
+    }
 
+    #call-to-action {
+        font-size: 0.75rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        margin: 4.5rem auto;
+    }
 
+    #call-to-action .call-to-action-innertext p {
+        font-size: 1.2rem;
+    }
 
+    #call-to-action button {
+        font-size: 1.2em;
+        width: 15%;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    footer {
+        font-size: 1em;
+        padding: 1.5em;
+    }
+}
